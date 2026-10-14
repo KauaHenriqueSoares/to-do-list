@@ -1,0 +1,54 @@
+html {
+    font-size: 10px;
+    font-family: Arial;
+}
+
+form {
+    display: flex;
+    gap: 12px;
+}
+ul , li{
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 5rem;
+}
+input {
+    font-size: 1.8rem;
+    padding: 12px;
+    border-radius: 0.5rem;
+    margin: auto;
+}
+
+.todo-list {
+    height:35%;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    margin-top: 20rem;
+    border-radius: 0.3rem;
+    box-shadow: rgb(228, 167, 228)  2px 2px 2px;
+}
+.cima {
+    text-align: center;
+    background-color: pink;
+    padding:5rem;
+    width: auto;
+    
+}
+
+.button-addItem {
+    background-color: rgb(195, 218, 228);
+    color: rgb(133, 133, 241);
+}
+.corEscrita {
+    color: hotpink;
+}
+
+.listadeelementos {
+    font-size: 1.8rem;
+}
